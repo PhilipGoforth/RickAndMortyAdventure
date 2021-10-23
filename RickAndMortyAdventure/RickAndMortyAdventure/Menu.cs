@@ -19,14 +19,55 @@ namespace RickAndMortyAdventure
 
         }
 
-        public void DisplayOptions()
+        private void DisplayOptions()
         {
             WriteLine(Prompt);
             for(int i = 0; i< Options.Length; i++)
             {
                 string currentOption = Options[i];
-                WriteLine($"<<{currentOption}>>");
+                string selector;
+
+                if (i == SelectedIndex)
+                {
+                    selector = "*";
+                    ForegroundColor = ConsoleColor.Black;
+                    BackgroundColor = ConsoleColor.Green;
+                }
+                else
+                {
+                    selector = " ";
+                    ForegroundColor = ConsoleColor.Green;
+                    BackgroundColor = ConsoleColor.Black;
+                }
+                WriteLine($"{selector}<<{currentOption}>>");
             }
+            ResetColor();
+        }
+
+        public int Run()
+        {
+            ConsoleKey keyPressed;
+            do
+            {
+                Clear();
+                DisplayOptions();
+
+                ConsoleKeyInfo keyInfo = ReadKey(true);
+                keyPressed = keyInfo.Key;
+
+                if(keyPressed == ConsoleKey.UpArrow && SelectedIndex > 0)
+                {
+                    SelectedIndex--;
+                }
+                else if(keyPressed == ConsoleKey.DownArrow && SelectedIndex < 2 )
+                {
+                    SelectedIndex++;
+                }
+
+
+            } while (keyPressed != ConsoleKey.Enter);
+
+            return SelectedIndex;
         }
     }
 }
