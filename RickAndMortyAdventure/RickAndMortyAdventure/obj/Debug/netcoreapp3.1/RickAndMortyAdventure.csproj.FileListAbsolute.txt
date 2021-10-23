@@ -1,0 +1,14 @@
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\bin\Debug\netcoreapp3.1\RickAndMortyAdventure.exe
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\bin\Debug\netcoreapp3.1\RickAndMortyAdventure.deps.json
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\bin\Debug\netcoreapp3.1\RickAndMortyAdventure.runtimeconfig.json
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\bin\Debug\netcoreapp3.1\RickAndMortyAdventure.runtimeconfig.dev.json
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\bin\Debug\netcoreapp3.1\RickAndMortyAdventure.dll
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\bin\Debug\netcoreapp3.1\RickAndMortyAdventure.pdb
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\obj\Debug\netcoreapp3.1\RickAndMortyAdventure.csproj.AssemblyReference.cache
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\obj\Debug\netcoreapp3.1\RickAndMortyAdventure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\obj\Debug\netcoreapp3.1\RickAndMortyAdventure.AssemblyInfoInputs.cache
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\obj\Debug\netcoreapp3.1\RickAndMortyAdventure.AssemblyInfo.cs
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\obj\Debug\netcoreapp3.1\RickAndMortyAdventure.csproj.CoreCompileInputs.cache
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\obj\Debug\netcoreapp3.1\RickAndMortyAdventure.dll
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\obj\Debug\netcoreapp3.1\RickAndMortyAdventure.pdb
+C:\Users\Ego\repos\RickAndMortyAdventure\RickAndMortyAdventure\RickAndMortyAdventure\obj\Debug\netcoreapp3.1\RickAndMortyAdventure.genruntimeconfig.cache
