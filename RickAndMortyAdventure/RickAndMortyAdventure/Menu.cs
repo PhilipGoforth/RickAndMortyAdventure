@@ -29,15 +29,14 @@ namespace RickAndMortyAdventure
 
                 if (i == SelectedIndex)
                 {
-                    selector = "*";
-                    ForegroundColor = ConsoleColor.Black;
-                    BackgroundColor = ConsoleColor.Green;
+                    selector = "                                         *";
+                    ForegroundColor = ConsoleColor.Green;
+                    
                 }
                 else
                 {
-                    selector = " ";
-                    ForegroundColor = ConsoleColor.Green;
-                    BackgroundColor = ConsoleColor.Black;
+                    selector = "                                          ";
+                    ForegroundColor = ConsoleColor.White;
                 }
                 WriteLine($"{selector}<<{currentOption}>>");
             }

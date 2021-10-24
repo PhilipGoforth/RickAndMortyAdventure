@@ -33,8 +33,8 @@ namespace RickAndMortyAdventure
      .----)   |   |  | |  |  |  | |  `--'  | |  `----./  _____  \   |  |     |  `--'  | |  |\  \----.
      |_______/    |__| |__|  |__|  \______/  |_______/__/     \__\  |__|      \______/  | _| `._____|
                                                                                                 
-Welcome to another Rick and Morty Adventure! What would you like to do?
-(Use arrow keys and Enter to select.)";
+                Welcome to another Rick and Morty Adventure! What would you like to do?
+                               (Use arrow keys and Enter to select.)";
             string[] options = { "Play", "About", "Exit" };
             Menu mainMenu = new Menu(prompt, options);
             int selectedIndex = mainMenu.Run();
