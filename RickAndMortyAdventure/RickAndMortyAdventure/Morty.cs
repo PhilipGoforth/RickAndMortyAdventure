@@ -6,5 +6,9 @@ namespace RickAndMortyAdventure
 {
     class Morty
     {
+        public string mortySpeak()
+        {
+
+        }
     }
 }
