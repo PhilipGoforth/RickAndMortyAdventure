@@ -7,6 +7,7 @@ namespace RickAndMortyAdventure
 {
     class Game
     {
+        
         public void Start()
         {
 
@@ -193,29 +194,128 @@ namespace RickAndMortyAdventure
             Clear();
             ForegroundColor = ConsoleColor.Green;
             WriteLine("\n\n\t\t\t\t\t\tyou open a portal and jump in...");
-            Random r = new Random();
-            int portalSelect = r.Next(0, 100);
-            switch (portalSelect)
-            {
-                case 1:
-
-                    break;
-                case 2:
-
-                    break;
-                case 3:
-
-                    break;
-                case 4:
-
-                    break;
-                case 5:
-
-                    break;
-                case 6:
-
-                    break;
-            }
+            ReadKey();
+            Clear();
+            OpenPortal();
+            ReadKey();
+            Clear();
         }
+        public static void OpenPortal()
+        {
+            
+            if (PortalGun.PortalFluid() > 0)
+            {
+                Random r = new Random();
+                int portalSelect = r.Next(0, 9);
+                switch (portalSelect)
+                {
+                    case 1:
+                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        ReadKey();
+                        Clear();
+                        BlenderDimension();
+                        break;
+                    case 2:
+                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        ReadKey();
+                        Clear();
+                        BlipsAndChitz();
+                        break;
+                    case 3:
+                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        ReadKey();
+                        Clear();
+                        CornUniverse();
+                        break;
+                    case 4:
+                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        ReadKey();
+                        Clear();
+                        MortysRoom();
+                        break;
+                    case 5:
+                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        ReadKey();
+                        Clear();
+                        ScreamingSun();
+                        break;
+                    case 6:
+                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        ReadKey();
+                        Clear();
+                        TheCitadel();
+                        break;
+                    case 7:
+                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        ReadKey();
+                        Clear();
+                        ButtWorld();
+                        break;
+                    case 8:
+                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        ReadKey();
+                        Clear();
+                        HolographicSimulation();
+                        break;
+                }
+            }
+            else
+            {
+                WriteLine("You are out of portal fluid!!");
+                ReadKey();
+                Clear();
+            }
+           
+
+        }
+        static void BlenderDimension()
+        {
+            WriteLine("You are dead from blenders");
+            ReadKey();
+            Clear();
+        }
+        static void BlipsAndChitz()
+        {
+            WriteLine("You are at Blips and Chips");
+            ReadKey();
+            Clear();
+        }
+        static void CornUniverse()
+        {
+            WriteLine("Everything is corn");
+            ReadKey();
+            Clear();
+        }
+        static void MortysRoom()
+        {
+            WriteLine("You are in your room");
+            ReadKey();
+            Clear();
+        }
+        static void ScreamingSun()
+        {
+            WriteLine("The sun is screaming!");
+            ReadKey();
+            Clear();
+        }
+        static void ButtWorld()
+        {
+            WriteLine("You are in butt world");
+            ReadKey();
+            Clear();
+        }
+        static void TheCitadel()
+        {
+            WriteLine("You are at the citadel");
+            ReadKey();
+            Clear();
+        }
+        static void HolographicSimulation()
+        {
+            WriteLine("You are in a simulation");
+            ReadKey();
+            Clear();
+        }
+
     }
 }
