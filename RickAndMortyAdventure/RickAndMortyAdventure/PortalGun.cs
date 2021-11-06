@@ -6,10 +6,13 @@ namespace RickAndMortyAdventure
 {
     class PortalGun
     {
-       public static int PortalFluid()
+        public static int portalFluid{ get; set; }
+
+       public static int PortalFluid(int portalFluid)
         {
-            var portalFluid = 5;
+            
             portalFluid--;
+            Console.WriteLine($"Only {portalFluid} trips left with this amount of portal fluid...");
             return portalFluid;
         }
     }

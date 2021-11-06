@@ -70,6 +70,7 @@ namespace RickAndMortyAdventure
         }
         private void RunChoice()
         {
+            
             Clear();
             WriteLine("You are asleep and suddenly your bedroom door flings open!!\n\nRick-'Hey little buddy...Hey how you doing in here??'\n\n");
             WriteLine("Morty-'Oh geez Rick what are you doing in here??'\n\nRick-'I need you to come to the garage and help me fix my Ionic Difibulizer!'\n\n");
@@ -225,56 +226,56 @@ namespace RickAndMortyAdventure
         public static void OpenPortal()
         {
             
-            if (PortalGun.PortalFluid() > 0)
+            if (PortalGun.portalFluid > 0)
             {
                 Random r = new Random();
                 int portalSelect = r.Next(0, 9);
                 switch (portalSelect)
                 {
                     case 1:
-                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        PortalGun.PortalFluid(PortalGun.portalFluid);
                         ReadKey();
                         Clear();
                         BlenderDimension();
                         break;
                     case 2:
-                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        PortalGun.PortalFluid(PortalGun.portalFluid);
                         ReadKey();
                         Clear();
                         BlipsAndChitz();
                         break;
                     case 3:
-                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        PortalGun.PortalFluid(PortalGun.portalFluid);
                         ReadKey();
                         Clear();
                         CornUniverse();
                         break;
                     case 4:
-                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        PortalGun.PortalFluid(PortalGun.portalFluid);
                         ReadKey();
                         Clear();
                         MortysRoom();
                         break;
                     case 5:
-                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        PortalGun.PortalFluid(PortalGun.portalFluid);
                         ReadKey();
                         Clear();
                         ScreamingSun();
                         break;
                     case 6:
-                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        PortalGun.PortalFluid(PortalGun.portalFluid);
                         ReadKey();
                         Clear();
                         TheCitadel();
                         break;
                     case 7:
-                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        PortalGun.PortalFluid(PortalGun.portalFluid);
                         ReadKey();
                         Clear();
                         ButtWorld();
                         break;
                     case 8:
-                        WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
+                        PortalGun.PortalFluid(PortalGun.portalFluid);
                         ReadKey();
                         Clear();
                         HolographicSimulation();
@@ -317,9 +318,9 @@ namespace RickAndMortyAdventure
                     
                     break;
                 case 0:
+
+                    PortalGun.PortalFluid(PortalGun.portalFluid);
                     
-                    PortalGun.PortalFluid();
-                    WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
                     OpenPortal();
                     ReadKey();
                     Clear();
@@ -344,9 +345,9 @@ namespace RickAndMortyAdventure
 
                     break;
                 case 0:
+
+                    PortalGun.PortalFluid(PortalGun.portalFluid);
                     
-                    PortalGun.PortalFluid();
-                    WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
                     OpenPortal();
                     ReadKey();
                     Clear();
@@ -392,9 +393,9 @@ namespace RickAndMortyAdventure
 
                     break;
                 case 0:
+
+                    PortalGun.PortalFluid(PortalGun.portalFluid);
                     
-                    PortalGun.PortalFluid();
-                    WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
                     OpenPortal();
                     ReadKey();
                     Clear();
@@ -442,9 +443,9 @@ namespace RickAndMortyAdventure
 
                     break;
                 case 0:
+
+                    PortalGun.PortalFluid(PortalGun.portalFluid);
                     
-                    PortalGun.PortalFluid();
-                    WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
                     OpenPortal();
                     ReadKey();
                     Clear();
@@ -471,9 +472,9 @@ namespace RickAndMortyAdventure
 
                     break;
                 case 0:
+
+                    PortalGun.PortalFluid(PortalGun.portalFluid);
                     
-                    PortalGun.PortalFluid();
-                    WriteLine($"Only {PortalGun.PortalFluid()} trips left with this amount of portal fluid...");
                     OpenPortal();
                     ReadKey();
                     Clear();
