@@ -8,6 +8,7 @@ namespace RickAndMortyAdventure
         {
             
             Game myGame = new Game();
+            var myGun = new PortalGun();
             PortalGun.portalFluid = 5;
             myGame.Start();
             
