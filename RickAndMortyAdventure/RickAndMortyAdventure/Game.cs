@@ -7,20 +7,13 @@ namespace RickAndMortyAdventure
 {
     class Game
     {
-        
         public void Start()
         {
-
-
-
             Title = "Rick and Morty Simulator.";
             RunMainMenu();
-
-            
         }
         public static void RunMainMenu()
         {
-            
             string prompt = @"
 ██████╗ ██╗ ██████╗██╗  ██╗     █████╗ ███╗   ██╗██████╗     ███╗   ███╗ ██████╗ ██████╗ ████████╗██╗   ██╗
 ██╔══██╗██║██╔════╝██║ ██╔╝    ██╔══██╗████╗  ██║██╔══██╗    ████╗ ████║██╔═══██╗██╔══██╗╚══██╔══╝╚██╗ ██╔╝
@@ -117,11 +110,7 @@ namespace RickAndMortyAdventure
             ReadKey();
             Clear();
             RunMainMenu();
-
         }
-        
-        
-
         public static void RickQuip()
         {
             Randomizer();
@@ -133,9 +122,6 @@ namespace RickAndMortyAdventure
             int selectedIndex = portalMenu.Run();
             switch (selectedIndex)
             {
-                case 2:
-                    RickQuip();
-                    break;
                 case 0:
                     PortalGun.Portal();
                     break;
@@ -179,12 +165,5 @@ namespace RickAndMortyAdventure
                     break;
             }
         }
-        
-        
-           
-
-        
-        
-
     }
 }

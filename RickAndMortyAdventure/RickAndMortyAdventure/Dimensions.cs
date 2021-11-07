@@ -29,13 +29,7 @@ namespace RickAndMortyAdventure
             int selectedIndex = portalMenu.Run();
             switch (selectedIndex)
             {
-                
-
-                    
                 case 0:
-
-
-
                     PortalGun.Portal();
                     Console.ReadKey();
                     Console.Clear();
@@ -56,13 +50,7 @@ namespace RickAndMortyAdventure
             int selectedIndex = portalMenu.Run();
             switch (selectedIndex)
             {
-                case 2:
-
-                    break;
                 case 0:
-
-
-
                     PortalGun.Portal();
                     Console.ReadKey();
                     Console.Clear();
@@ -78,7 +66,6 @@ namespace RickAndMortyAdventure
         {
             Console.WriteLine("You are in your room");
             Console.ReadKey();
-            
             Console.Clear();
             Console.WriteLine("Rick- 'Morty! Morty wake up!'\n\n");
             Console.ReadKey();
@@ -104,13 +91,7 @@ namespace RickAndMortyAdventure
             int selectedIndex = portalMenu.Run();
             switch (selectedIndex)
             {
-                case 2:
-
-                    break;
                 case 0:
-
-
-
                     PortalGun.Portal();
                     Console.ReadKey();
                     Console.Clear();
@@ -154,13 +135,7 @@ namespace RickAndMortyAdventure
             int selectedIndex = portalMenu.Run();
             switch (selectedIndex)
             {
-                case 2:
-
-                    break;
                 case 0:
-
-
-
                     PortalGun.Portal();
                     Console.ReadKey();
                     Console.Clear();
@@ -183,16 +158,11 @@ namespace RickAndMortyAdventure
             int selectedIndex = portalMenu.Run();
             switch (selectedIndex)
             {
-                
                 case 0:
-
-                    
-
                     PortalGun.Portal();
                     Console.ReadKey();
                     Console.Clear();
                     break;
-                    
                 case 1:
                     SimulationStay();
                     Console.ReadKey();

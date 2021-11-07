@@ -9,7 +9,6 @@ namespace RickAndMortyAdventure
         public int Health { get; set; }
 
         public static void MortyDies()
-
         {
             Console.ForegroundColor = ConsoleColor.Red;
             string prompt = @"
