@@ -29,14 +29,14 @@ namespace RickAndMortyAdventure
             int selectedIndex = portalMenu.Run();
             switch (selectedIndex)
             {
-                case 2:
+                
 
-                    break;
+                    
                 case 0:
 
-                    PortalGun.PortalFluid(PortalGun.portalFluid);
 
-                    PortalGun.OpenPortal();
+
+                    PortalGun.Portal();
                     Console.ReadKey();
                     Console.Clear();
                     break;
@@ -61,9 +61,9 @@ namespace RickAndMortyAdventure
                     break;
                 case 0:
 
-                    PortalGun.PortalFluid(PortalGun.portalFluid);
 
-                    PortalGun.OpenPortal();
+
+                    PortalGun.Portal();
                     Console.ReadKey();
                     Console.Clear();
                     break;
@@ -78,7 +78,7 @@ namespace RickAndMortyAdventure
         {
             Console.WriteLine("You are in your room");
             Console.ReadKey();
-            Console.Clear();
+            
             Console.Clear();
             Console.WriteLine("Rick- 'Morty! Morty wake up!'\n\n");
             Console.ReadKey();
@@ -109,9 +109,9 @@ namespace RickAndMortyAdventure
                     break;
                 case 0:
 
-                    PortalGun.PortalFluid(PortalGun.portalFluid);
 
-                    PortalGun.OpenPortal();
+
+                    PortalGun.Portal();
                     Console.ReadKey();
                     Console.Clear();
                     break;
@@ -159,9 +159,9 @@ namespace RickAndMortyAdventure
                     break;
                 case 0:
 
-                    PortalGun.PortalFluid(PortalGun.portalFluid);
 
-                    PortalGun.OpenPortal();
+
+                    PortalGun.Portal();
                     Console.ReadKey();
                     Console.Clear();
                     break;
@@ -183,17 +183,16 @@ namespace RickAndMortyAdventure
             int selectedIndex = portalMenu.Run();
             switch (selectedIndex)
             {
-                case 2:
-
-                    break;
+                
                 case 0:
 
-                    PortalGun.PortalFluid(PortalGun.portalFluid);
+                    
 
-                    PortalGun.OpenPortal();
+                    PortalGun.Portal();
                     Console.ReadKey();
                     Console.Clear();
                     break;
+                    
                 case 1:
                     SimulationStay();
                     Console.ReadKey();
